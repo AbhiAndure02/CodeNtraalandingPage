@@ -105,7 +105,7 @@ const Contact = () => {
     >
       {/* Glassmorphism Card */}
       <motion.div 
-        className="relative w-full max-w-6xl bg-black/20 rounded-2xl shadow-2xl p-8 md:p-12 border border-white/20"
+        className="relative w-full max-w-6xl  rounded-2xl shadow-2xl p-8 md:p-12 border border-white shadow-black/50 bg-white/30 "
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
@@ -184,7 +184,7 @@ const Contact = () => {
 
           {/* Right Section - Contact Form */}
           <motion.div 
-            className="bg-black/10 p-6 md:p-8 rounded-xl shadow-md"
+            className="bg-white  p-6 md:p-8 rounded-xl shadow-md shadow-black"
             variants={itemVariants}
           >
             <motion.h3 
@@ -258,7 +258,7 @@ const Contact = () => {
               <motion.div variants={itemVariants}>
                 <motion.button 
                   type="submit" 
-                  className="w-full bg-[#00AFB9] text-slate-900 py-4 rounded-lg font-bold text-lg hover:bg-[#f8d77d] disabled:opacity-50"
+                  className="w-full bg-[#00AFB9] text-slate-900 py-4 rounded-lg font-bold text-lg hover:bg-[#7adadf] disabled:opacity-50"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   disabled={loading}

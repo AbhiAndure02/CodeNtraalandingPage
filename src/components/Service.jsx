@@ -70,7 +70,7 @@ const ServiceCard = ({ title, image, description, link }) => (
         <h2 className="text-xl text-black font-semibold mb-2">{title}</h2>
         <p className="text-gray-600 text-sm">{description}</p>
         <motion.button 
-          className="text-[#00AFB9] hover:text-[#f7bb47] m-2"
+          className="text-blue-500   hover:text-[#00AFB9] m-2"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
