@@ -101,7 +101,7 @@ const Contact = () => {
   return (
     <div 
       id="contact" 
-      className="text-black dark:text-white bg-orange-50 dark:bg-gray-800 min-h-screen flex items-center justify-center relative border-b-2 border-gray-500 py-12 px-4"
+      className="text-black dark:text-white bg-white dark:bg-gray-800 min-h-screen flex items-center justify-center relative border-b-2 border-gray-500 py-12 px-4"
     >
       {/* Glassmorphism Card */}
       <motion.div 

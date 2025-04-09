@@ -48,7 +48,7 @@ const imageVariants = {
 
 const Teams = () => {
     return (
-        <div id="team" className="text-black dark:text-white bg-orange-50 dark:bg-gray-800 min-h-screen py-16">
+        <div id="team" className="text-black dark:text-white bg-white dark:bg-gray-800 min-h-screen py-16">
             <motion.h1 
                 className="text-5xl font-bold text-center text-slate-700 mb-10"
                 initial={{ opacity: 0, y: -20 }}

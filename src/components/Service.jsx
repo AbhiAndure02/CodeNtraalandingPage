@@ -131,7 +131,7 @@ const Service = () => {
   ];
 
   return (
-    <section id="services" className="py-12 px-4 text-black dark:text-white dark:bg-gray-800 bg-orange-50">
+    <section id="services" className="py-12 px-4 text-black dark:text-white dark:bg-gray-800 bg-white">
       {/* Services Section */}
       <motion.div
         initial="hidden"
