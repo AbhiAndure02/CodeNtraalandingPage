@@ -43,7 +43,7 @@ const Contact = () => {
       setErrorMessage("");
       
       // Send email via your backend API
-      const response = await axios.post('/api/registers/register',{name:formData.name, email: formData.email,
+      const response = await axios.post('https://codentraa.onrender.com/api/registers/register',{name:formData.name, email: formData.email,
       message: formData.message,
       subject: "Inquiry registration"
      

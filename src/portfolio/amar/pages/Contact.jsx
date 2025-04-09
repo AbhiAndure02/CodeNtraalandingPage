@@ -51,7 +51,7 @@ export default function Contact() {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('/api/registers/register', {
+      const response = await fetch('https://codentraa.onrender.com/api/registers/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
