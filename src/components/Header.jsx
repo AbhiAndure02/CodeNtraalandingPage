@@ -29,7 +29,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             <nav className='flex gap-5'>
-              {['home', 'about', 'services', 'teams', 'contact'].map((item) => (
+              {['home', 'about', 'services', 'team', 'contact'].map((item) => (
                 <Link 
                   key={item}
                   smooth={true}
@@ -74,7 +74,7 @@ const Header = () => {
         {isOpen && (
           <nav className="md:hidden bg-white dark:bg-gray-800 shadow-lg rounded-b-lg">
             <ul className="flex flex-col space-y-4 p-6">
-              {['home', 'about', 'services', 'teams', 'contact'].map((item) => (
+              {['home', 'about', 'services', 'team', 'contact'].map((item) => (
                 <li key={item}>
                   <Link
                     to={item}
