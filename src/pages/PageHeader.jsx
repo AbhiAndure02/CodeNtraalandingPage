@@ -52,7 +52,7 @@ const Header = () => {
             Team</Link>
             <Link to="/"  className="text-black dark:text-white cursor-pointer font-semibold text-xl transition duration-300 transform hover:scale-105 hover:text-[#f7bb47] hover:rotate-3 hover:translate-y-1"
             >
-            Contact Us</Link>
+            Contact</Link>
           </nav>
 
           {/* Dark Mode Toggle Button */}

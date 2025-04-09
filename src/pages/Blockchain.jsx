@@ -4,7 +4,7 @@ import { FaEthereum, FaBitcoin, FaLink, FaShieldAlt, FaExchangeAlt, FaChartLine 
 import { SiSolidity, SiBinance, SiPolkadot, SiChainlink, SiIpfs } from 'react-icons/si';
 import ServiceTemplate from './ServiceTemplate';
 import { BiSolidHardHat } from 'react-icons/bi';
-
+import { Link } from 'react-router-dom';
 const Blockchain = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -240,9 +240,9 @@ const Blockchain = () => {
             Let's discuss how decentralized technology can transform your business.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+            <Link to='/progress' className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
               Start Your Project
-            </button>
+            </Link>
          
           </div>
         </section>

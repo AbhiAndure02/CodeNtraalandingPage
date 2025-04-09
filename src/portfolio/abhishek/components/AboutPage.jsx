@@ -5,9 +5,9 @@ import img from '../../../assets/profile/abhi2.png'
 const AboutPage = () => {
   const experiences = [
     {
-      year: "2022 - Present",
+      year: "2023 - 2025",
       role: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
+      company: "Prolux.",
       description: "Leading a team to build scalable web applications using React, Node.js, and cloud technologies."
     }
   ];

@@ -141,26 +141,7 @@ const ProjectsPage = () => {
                 </div>
                 
                 <div className="flex gap-4">
-                  <motion.a
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-2 px-4 py-2 bg-gray-700 rounded-lg text-sm font-medium"
-                  >
-                    <FiGithub /> Code
-                  </motion.a>
-                  <motion.a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-600 to-teal-600 rounded-lg text-sm font-medium"
-                  >
-                    <FiExternalLink /> Live Demo
-                  </motion.a>
+                
                 </div>
               </div>
             </motion.div>

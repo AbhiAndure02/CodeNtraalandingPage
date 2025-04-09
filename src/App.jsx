@@ -12,12 +12,14 @@ import Amar from './portfolio/amar/Amar';
 import Sushama from './portfolio/sushama/Sushama';
 import Shubham from './portfolio/shubham/Shubham';
 import Neha from './portfolio/neha/Neha';
+import WorkInProgress from './components/WorkInProgress';
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path='/progress' element={<WorkInProgress />} />
         <Route path="/" element={<Stack />} />
         <Route path="/webapp" element={<WebApp />} />
         <Route path="/itservice" element={<ItService />} />

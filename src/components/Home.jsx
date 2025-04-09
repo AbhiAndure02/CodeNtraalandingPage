@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <main id="home" className="">
 
-    <div className=" flex flex-col-reverse md:flex-row w-full min-h-screen  dark:bg-gray-800 items-center ">
+    <div className=" flex flex-col-reverse md:flex-row w-full min-h-screen bg-orange-50 dark:bg-gray-800 items-center ">
       {/* Image Section (Appears first on mobile, second on desktop) */}
       <div className="w-full md:w-1/2 flex justify-center items-center order-1 md:order-2 ">
         <motion.img 

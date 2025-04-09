@@ -9,8 +9,6 @@ const Projects = () => {
       technologies: ["Spring MVC", "Spring JDBC", "MySQL", "Bootstrap"],
       date: "Aug 2024",
       links: [
-        { icon: <FaExternalLinkAlt />, url: "https://alumnieventconnect.in/", label: "Live Demo" },
-        { icon: <FaGithub />, url: "#", label: "Source Code" }
       ],
       accent: "from-purple-500 to-pink-500"
     },
@@ -20,8 +18,6 @@ const Projects = () => {
       technologies: ["Core Java", "Collections Framework"],
       date: "Apr 2024",
       links: [
-        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" },
-        { icon: <FaGithub />, url: "#", label: "Source Code" }
       ],
       accent: "from-blue-500 to-teal-400"
     },
@@ -31,8 +27,7 @@ const Projects = () => {
       technologies: ["Python", "Flask", "Machine Learning"],
       date: "2023",
       links: [
-        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" },
-        { icon: <FaGithub />, url: "#", label: "Source Code" }
+   
       ],
       accent: "from-indigo-500 to-purple-400"
     },
@@ -42,8 +37,7 @@ const Projects = () => {
         technologies: ["React", "Tailwindcss"   ],
         date: "2025",
         links: [
-          { icon: <FaExternalLinkAlt />, url: "https://codentraa.com/portfolio2", label: "Live Demo" },
-          { icon: <FaGithub />, url: "#", label: "Source Code" }
+        
         ],
         accent: "from-indigo-500 to-purple-400"
       }

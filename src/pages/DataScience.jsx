@@ -3,6 +3,7 @@ import Header from './PageHeader';
 import { FaBrain, FaChartLine, FaRobot, FaDatabase, FaCode, FaCloud } from 'react-icons/fa';
 import { SiTensorflow, SiPytorch, SiPython, SiGooglecolab } from 'react-icons/si';
 import ServiceTemplate from './ServiceTemplate';
+import { Link } from 'react-router-dom';
 
 const DataScience = () => {
   // Integrated services combining all three domains
@@ -240,9 +241,9 @@ const DataScience = () => {
             Leverage the combined power of AI, ML, and Data Science for your business.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+            <Link to='/progress'  className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
               Start a Project
-            </button>
+            </Link>
           
           </div>
         </section>

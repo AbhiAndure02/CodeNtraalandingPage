@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 // Animation variants
 const containerVariants = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 90 },
   visible: {
     opacity: 1,
     transition: {
@@ -56,7 +56,7 @@ const ServiceCard = ({ title, image, description, link }) => (
     variants={itemVariants}
     whileHover={{ scale: 1.03 }}
     whileTap={{ scale: 0.97 }}
-    className="lg:w-[350px] p-4"
+    className="lg:w-[350px] p-4 bg-white"
   >
     <Card>
       <motion.img 
@@ -65,6 +65,7 @@ const ServiceCard = ({ title, image, description, link }) => (
         className="w-full h-52 object-cover"
         whileHover={{ scale: 1.05 }}
       />
+      <Link to={link}>
       <CardContent>
         <h2 className="text-xl text-black font-semibold mb-2">{title}</h2>
         <p className="text-gray-600 text-sm">{description}</p>
@@ -76,6 +77,7 @@ const ServiceCard = ({ title, image, description, link }) => (
           <Link to={link} >see more</Link>
         </motion.button>
       </CardContent>
+      </Link>
     </Card>
   </motion.div>
 );
@@ -84,10 +86,10 @@ const FeatureCard = ({ icon, title, description }) => (
   <motion.div
     variants={itemVariants}
     whileHover="hover"
-    className="flex flex-col items-center p-6 bg-white dark:bg-gray-700 rounded-lg shadow-md"
+    className="flex flex-col items-center p-6 dark:bg-gray-700 rounded-lg shadow-md bg-white"
   >
     <motion.div variants={featureVariants}>
-      {React.cloneElement(icon, { className: "text-[#00AFB9] mb-4" })}
+      {React.cloneElement(icon, { className: "text-[#00AFB9] mb-4 " })}
     </motion.div>
     <h3 className="text-lg font-semibold text-black dark:text-white mb-2">{title}</h3>
     <p className="text-gray-600 dark:text-gray-300 text-center">{description}</p>
@@ -129,7 +131,7 @@ const Service = () => {
   ];
 
   return (
-    <section id="services" className="py-12 px-4 text-black dark:text-white dark:bg-gray-800">
+    <section id="services" className="py-12 px-4 text-black dark:text-white dark:bg-gray-800 bg-orange-50">
       {/* Services Section */}
       <motion.div
         initial="hidden"

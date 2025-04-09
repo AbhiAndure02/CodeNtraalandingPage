@@ -51,8 +51,8 @@ const Footer = () => {
             viewport={{ once: true }}
             className="mb-6 md:mb-0"
           >
-            <Link to='home1' smooth={true} offset={-80} className="text-2xl font-bold text-black hover:text-indigo-400 transition-colors">
-              <span className="text-indigo-400">Port</span>folio
+            <Link to='home1' smooth={true} offset={-80} className="text-2xl font-bold text-white hover:text-indigo-400 transition-colors">
+              <span className="text-indigo-400">Abhishek</span> Andure
             </Link>
           
            

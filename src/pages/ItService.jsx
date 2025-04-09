@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './PageHeader';
 import { FaServer, FaCloud, FaShieldAlt, FaCode, FaNetworkWired, FaMobileAlt } from 'react-icons/fa';
 import ServiceTemplate from './ServiceTemplate';
+import { Link } from 'react-router-dom';
 
 const ItService = () => {
   const services = [
@@ -80,9 +81,9 @@ const ItService = () => {
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
             Our experts are ready to discuss your project requirements and provide customized solutions.
           </p>
-          <button className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+          <Link to='/progress'  className="bg-white text-[#00AFB9] font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
             Get a Free Consultation
-          </button>
+          </Link>
         </section>
       </main>
 

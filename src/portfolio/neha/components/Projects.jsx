@@ -144,29 +144,7 @@ const Projects = () => {
               </div>
 
               {/* Links */}
-              <div className="flex gap-4">
-                <motion.a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ x: 3 }}
-                  className="flex items-center gap-2 text-white/60 hover:text-[#00BFFF] transition-colors"
-                >
-                  <FiGithub className="text-lg" />
-                  <span>Code</span>
-                </motion.a>
-
-                <motion.a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ x: 3 }}
-                  className="flex items-center gap-2 text-white/60 hover:text-[#00BFFF] transition-colors"
-                >
-                  <FiExternalLink className="text-lg" />
-                  <span>Live Demo</span>
-                </motion.a>
-              </div>
+              
             </div>
           </motion.div>
         ))}

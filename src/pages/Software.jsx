@@ -3,6 +3,7 @@ import Header from './PageHeader';
 import { FaCode, FaServer, FaCloud, FaShieldAlt, FaMobileAlt, FaCogs } from 'react-icons/fa';
 import { SiJavascript, SiPython, SiRuby, SiDocker, SiDotnet, SiNodedotjs } from 'react-icons/si';
 import ServiceTemplate from './ServiceTemplate';
+import { Link } from 'react-router-dom';
 
 const Software = () => {
     useEffect(() => {
@@ -227,12 +228,12 @@ const Software = () => {
             Let's discuss how we can create the perfect software solution for your business.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-purple-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+            <Link to='/progress' className="bg-white text-purple-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300">
               Get Started
-            </button>
-            <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-purple-600 transition-colors duration-300">
+            </Link>
+            <Link to='/progress'  className="bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-purple-600 transition-colors duration-300">
               View Case Studies
-            </button>
+            </Link>
           </div>
         </section>
       </main>

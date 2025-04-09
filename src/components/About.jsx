@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div id="about" className="text-black dark:text-white dark:bg-gray-800 py-16 px-6">
+    <div id="about" className="text-black dark:text-white dark:bg-gray-800 bg-orange-50 py-16 px-6">
       <h1 className="text-5xl font-bold text-center text-slate-700 ">
         <span className="text-[#00AFB9] ">About</span>
         <span className="text-slate-900 dark:text-white "> CodeNtraa</span>

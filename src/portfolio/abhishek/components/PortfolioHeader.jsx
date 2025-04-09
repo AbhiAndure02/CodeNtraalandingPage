@@ -16,30 +16,30 @@ const PortfolioHeader = () => {
                 <div className="flex items-center">
                     <Link to='home1' smooth={true} offset={-80} className="text-2xl font-bold text-gray-200 hover:text-indigo-600 transition-colors">
                         {/* Replace with your logo */}
-                        <span className="text-indigo-600">Port</span>folio
+                        <span className="text-indigo-600">Abhishek </span>Andure
                     </Link>
                 </div>
 
                 {/* Right side - Navigation (Desktop) */}
                 <nav className="hidden md:flex space-x-8">
-                    <Link to='home1' smooth={true} offset={-80} className="text-gray-300 hover:text-indigo-600 font-medium transition-colors relative group">
+                    <Link to='home1' smooth={true} offset={-80} className="text-gray-300 cursor-pointer hover:text-indigo-600 font-medium transition-colors relative group">
                         Home
                         <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full"></span>
                     </Link>
-                    <Link to='about1' smooth={true} offset={-80} className="text-gray-300 hover:text-indigo-600 font-medium transition-colors relative group">
+                    <Link to='about1' smooth={true} offset={-80} className="text-gray-300 cursor-pointer hover:text-indigo-600 font-medium transition-colors relative group">
                         About
                         <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full"></span>
                     </Link>
-                    <Link to="skill1" smooth={true} offset={-80} className="text-gray-300 hover:text-indigo-600 font-medium transition-colors relative group">
+                    <Link to="skill1" smooth={true} offset={-80} className="text-gray-300 cursor-pointer hover:text-indigo-600 font-medium transition-colors relative group">
                         Skills
                         <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full"></span>
                     </Link>
-                    <Link to='project1' smooth={true} offset={-80} className="text-gray-300 hover:text-indigo-600 font-medium transition-colors relative group">
+                    <Link to='project1' smooth={true} offset={-80} className="text-gray-300 cursor-pointer hover:text-indigo-600 font-medium transition-colors relative group">
                         Projects
                         <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full"></span>
                     </Link>
 
-                    <Link to='contact1' smooth={true} offset={-80} className="text-gray-300 hover:text-indigo-600 font-medium transition-colors relative group">
+                    <Link to='contact1' smooth={true} offset={-80} className="text-gray-300 cursor-pointer hover:text-indigo-600 font-medium transition-colors relative group">
                         Contact
                         <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 transition-all group-hover:w-full"></span>
                     </Link>
