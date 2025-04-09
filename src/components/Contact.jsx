@@ -184,7 +184,7 @@ const Contact = () => {
 
           {/* Right Section - Contact Form */}
           <motion.div 
-            className="bg-white  p-6 md:p-8 rounded-xl shadow-md shadow-black"
+            className="bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md shadow-black"
             variants={itemVariants}
           >
             <motion.h3 
@@ -249,7 +249,7 @@ const Contact = () => {
                   name="message" 
                   rows="4" 
                   placeholder="Your Message" 
-                  className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FCBF49] text-black placeholder-gray-500 dark:text-white dark:placeholder-gray-300 transition-all hover:shadow-lg"
+                  className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#00AFB9] text-black placeholder-gray-500 dark:text-white dark:placeholder-gray-300 transition-all hover:shadow-lg"
                   onChange={handleChange}
                   value={formData.message}
                 />
