@@ -54,7 +54,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Director & <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-500 font-bold">Full Stack Developer</span> at{' '}
+           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-500 font-bold">Full Stack Developer</span> at{' '}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 font-bold">CodeNtraa</span>
           </motion.h2>
           

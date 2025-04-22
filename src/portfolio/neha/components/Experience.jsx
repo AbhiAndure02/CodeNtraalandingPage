@@ -3,14 +3,7 @@ import { FiBook, FiAward, FiBriefcase } from 'react-icons/fi'
 
 const Education = () => {
   const timelineItems = [
-    {
-      type: 'experience',
-      title: 'Director - CodeNtraa',
-      year: '2025 - Present',
-      description:
-        'Leading software product development, cloud solutions, and enterprise tools with focus on user experience and performance.',
-      icon: <FiBriefcase className="text-2xl" />,
-    },
+  
     {
       type: 'experience',
       title: 'Software Engineer - EXR Tech Solutions',

@@ -58,7 +58,7 @@ export default function Home() {
             variants={fadeInUp}
             className="text-lg sm:text-xl md:text-2xl font-semibold text-white"
           >
-            CEO & CFO of CodeNtraa | Full Stack Developer | UI/UX Designer
+            Full Stack Developer | UI/UX Designer
           </motion.h2>
 
           {/* About Paragraph */}
@@ -66,7 +66,7 @@ export default function Home() {
             variants={fadeInUp}
             className="text-base sm:text-lg text-white max-w-2xl"
           >
-            As the CEO and CFO of <strong>CodeNtraa</strong>, I lead strategy, design, and engineering with deep experience in Java Full Stack Development, UI/UX, and Cloud. I transform business ideas into scalable and intuitive digital solutions through design-driven development.
+           I lead strategy, design, and engineering with deep experience in Java Full Stack Development, UI/UX, and Cloud. I transform business ideas into scalable and intuitive digital solutions through design-driven development.
           </motion.p>
 
           {/* CTA Buttons */}

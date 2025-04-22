@@ -53,7 +53,6 @@ const About = () => {
         </h3>
         <div className="space-y-4 text-gray-700 text-base leading-relaxed">
           <p>
-            As the <span className="font-semibold text-blue-600">Director of CodeNtraa</span>, I drive technological innovation with a focus on creating efficient, scalable solutions that transform businesses.
           </p>
           <p>
             My journey began with a <span className="font-semibold">Bachelor's in Electronics & Telecommunication</span> from P.E.S Modern College, Pune, evolving into a passion for full-stack development and cloud architecture.

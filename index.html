@@ -2,20 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Favicon for light mode -->
-  <!-- Favicon for light mode -->
-<link rel="icon" type="image/svg+xml" href="/logo-dark.svg" media="(prefers-color-scheme: light)" />
-<!-- Favicon for dark mode -->
-<link rel="icon" type="image/svg+xml" href="/logo-light.svg" media="(prefers-color-scheme: dark)" />
+
+    <!-- Responsive settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>CodeNtraa – Empowering Next-Gen Tech Solutions</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="CodeNtraa is your trusted partner in building cutting-edge software, and business automation solutions. Transform your ideas into reality with our full-stack expertise." />
+
+    <!-- Keywords (Optional, less important now but can help) -->
+    <meta name="keywords" content="CodeNtraa, software company, electronics solutions, full-stack development, business automation, IT services" />
+
+    <!-- Author -->
+    <meta name="author" content="CodeNtraa Team" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon for light/dark mode -->
+    <link rel="icon" type="image/svg+xml" href="/logo-dark.svg" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="/logo-light.svg" media="(prefers-color-scheme: dark)" />
 
     <!-- Fallback favicon -->
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeNtraa</title>
-    
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="CodeNtraa – Empowering Next-Gen Tech Solutions" />
+    <meta property="og:description" content="We develop smart solutions for IT and electronics. Explore our services and start building the future with CodeNtraa." />
+    <meta property="og:image" content="/cover.jpg" />
+    <meta property="og:url" content="https://www.codentraa.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CodeNtraa – Empowering Next-Gen Tech Solutions" />
+    <meta name="twitter:description" content="We develop smart solutions for IT and electronics. Explore our services and start building the future with CodeNtraa." />
+    <meta name="twitter:image" content="/cover.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.codentraa.com" />
+
     <!-- Dark mode detection script -->
     <script>
-      // Check for dark mode preference and store in localStorage
       if (typeof window !== 'undefined') {
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         if (prefersDark) {
@@ -25,8 +55,7 @@
           document.documentElement.classList.remove('dark');
           localStorage.setItem('theme', 'light');
         }
-        
-        // Listen for changes in color scheme preference
+
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
           if (e.matches) {
             document.documentElement.classList.add('dark');
@@ -39,6 +68,7 @@
       }
     </script>
   </head>
+
   <body class="bg-white dark:bg-gray-900 transition-colors duration-300">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

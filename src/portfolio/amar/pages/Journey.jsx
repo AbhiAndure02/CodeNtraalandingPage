@@ -3,12 +3,7 @@ import { FiBriefcase, FiAward, FiBook } from 'react-icons/fi';
 
 export default function Journey() {
   const experiences = [
-    {
-      year: '2025',
-      title: 'CEO & CFO',
-      company: 'CodeNtraa Pvt.Ltd',
-      description: 'Leading the company vision and strategic direction, overseeing all operations and driving technological innovation.',
-    },
+    
     {
       year: '2024',
       title: 'Junior Developer',

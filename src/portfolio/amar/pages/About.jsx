@@ -49,7 +49,7 @@ export default function About() {
               Who I Am
             </h3>
             <p className="mb-4 text-gray-200 text-justify">
-              As the <strong>CEO, CFO, and Director of CodeNtraa</strong>,
+
               I am dedicated to driving technological innovation and business growth.
               With years of experience in <strong>software development, system architecture, and cloud computing</strong>,
               I have led multiple teams to successfully deliver robust and scalable solutions.

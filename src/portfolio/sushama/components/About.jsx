@@ -92,8 +92,7 @@ const About = () => {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
               viewport={{ once: true }}
-            >
-              As the Director of <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">CodeNtraa</span>, I lead our team in delivering cutting-edge software solutions that drive business transformation.
+> I lead our team in delivering cutting-edge software solutions that drive business transformation.
             </motion.p>
             
             <motion.p

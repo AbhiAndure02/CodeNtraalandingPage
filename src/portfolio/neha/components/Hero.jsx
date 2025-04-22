@@ -74,7 +74,6 @@ const Hero = () => {
               variants={itemVariants}
               className="text-3xl md:text-4xl font-bold mb-6 text-gray-800"
             >
-              Director of <span className="text-blue-600">CodeNtraa</span>
             </motion.h2>
             
             <motion.h3 

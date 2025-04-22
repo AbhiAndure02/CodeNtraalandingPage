@@ -35,7 +35,7 @@ export default function Contact() {
     quickInfo: {
       title: "📌 Quick Info",
       description: "Don't hesitate to get in touch!",
-      email: "amarambure99@email.com",
+      email: "amarambure99@gmail.com",
       phone: "+91 8484957731",
       location: "Pune, India"
     },
