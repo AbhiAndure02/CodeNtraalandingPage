@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiAward, FiUsers, FiLayers, FiCode } from 'react-icons/fi';
+import img from '../../../assets/profile/shubham.png';
+
 
 const About = () => {
   const stats = [
@@ -52,7 +54,7 @@ const About = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-gradient-to-br from-fuchsia-500 to-purple-600 overflow-hidden">
                 {/* Replace with your image */}
                 <div className="w-full h-full flex items-center justify-center text-6xl">
-                  👨‍💼
+                  <img src={img} alt="profile" />
                 </div>
               </div>
               <motion.div

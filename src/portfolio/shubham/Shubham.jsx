@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -8,6 +8,9 @@ import Footer from './components/Footer';
 
 
 const Shubham = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
 <>
 <Header />

@@ -12,28 +12,31 @@ const teamMembers = [
       name: "Neha Jadhav", 
       githubLink : "https://github.com/nehajadhv06",
       linkedinLink :"https://www.linkedin.com/in/nehajadhav24/",
-      image: neha 
+      image: neha,
+      profile: "neha"
     },
     { 
       id: 2, 
       name: "Sushama Kalgapure", 
       githubLink : "https://github.com/SushamaKalgapure",
       linkedinLink :"https://www.linkedin.com/in/sushama-kalgapure-83b370237/",    
-      image: sushama
+      image: sushama,
+      profile: "sushama"
     },
     { 
       id: 3, 
       name: "Shubham Bhakare", 
-      githubLink : "",
       linkedinLink : "https://www.linkedin.com/in/shubham-bhakare-b48179231",
-      image: shubham
+      image: shubham,
+      profile: "shubham"
     },
     { 
       id: 4,
       name: "Amarnath Ambure",
       githubLink : "https://github.com/amarambure007",
       linkedinLink :"https://www.linkedin.com/in/amar-ambure-007/",
-      image: amar 
+      image: amar ,
+      profile: "amar"
     },
 
    
@@ -42,7 +45,8 @@ const teamMembers = [
       name: "Abhishek Andure", 
       githubLink : "https://github.com/AbhiAndure02",
       linkedinLink : "https://www.linkedin.com/in/abhishek-andure-228567228/",
-      image: abhi },
+      image: abhi,
+      profile: "abhi"},
    
   ];
 

@@ -82,7 +82,7 @@ const Contact = () => {
             className="lg:w-1/3"
           >
             <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-700/50 h-full">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Contact Information</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -92,7 +92,7 @@ const Contact = () => {
                   <div>
                     <h4 className="text-gray-300 font-medium">Email</h4>
                     <a href="mailto:shubham@example.com" className="text-gray-400 hover:text-fuchsia-500 transition-colors">
-                      shubhambhakare@gmail.com
+                      shubhambhakare123@gmail.com
                     </a>
                   </div>
                 </div>
@@ -119,21 +119,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="mt-12">
-                <h4 className="text-gray-300 font-medium mb-4">Connect with me</h4>
-                <div className="flex gap-4">
-                  {['LinkedIn', 'Twitter', 'GitHub'].map((social, index) => (
-                    <motion.a
-                      key={index}
-                      href="#"
-                      className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center text-gray-300 hover:bg-fuchsia-500 hover:text-white transition-all"
-                      whileHover={{ y: -3 }}
-                    >
-                      {social.charAt(0)}
-                    </motion.a>
-                  ))}
-                </div>
-              </div>
+            
             </div>
           </motion.div>
 

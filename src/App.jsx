@@ -27,11 +27,11 @@ const App = () => {
         <Route path="/blockchain" element={<Blockchain />} />
         <Route path="/software" element={<Software />} />
         <Route path="/ds" element={<DataScience />} />
-        <Route path="/portfolio5" element={<Abhi />} />
-        <Route path="/portfolio4" element={<Amar />} />
-        <Route path="/portfolio1" element={<Neha />} />
-        <Route path="/portfolio2" element={<Sushama />} />
-        <Route path="/portfolio3" element={<Shubham />} />
+        <Route path="/abhi" element={<Abhi />} />
+        <Route path="/amar" element={<Amar />} />
+        <Route path="/neha" element={<Neha />} />
+        <Route path="/sushama" element={<Sushama />} />
+        <Route path="/shubham" element={<Shubham />} />
 
        
 

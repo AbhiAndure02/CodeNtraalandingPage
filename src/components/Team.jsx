@@ -125,7 +125,7 @@ const Teams = () => {
                                 animate={{ opacity: 1 }}
                                 transition={{ delay: 0.5 }}
                             >
-                                <Link to={`/portfolio${member.id}`}>
+                                <Link to={member.profile}>
                                     <motion.button 
                                         className="mt-6 bg-[#00AFB9] text-white px-6 py-2 rounded-lg hover:bg-[#f7bb47] transition-all"
                                         whileHover={{ scale: 1.1 }}
